@@ -1,0 +1,24 @@
+{
+  "name": "zapstrap",
+  "description": "empty zapstrap project",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jonathan Bowers",
+    "email": "jonotron@gmail.com"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "hbs": "1.0.x",
+    "underscore": "1.3.x",
+    "mongoose": "2.5.x",
+    "nconf": "0.5.x"
+  },
+  "devDependencies": {
+    "requirejs": "2.0.x",
+    "less": "1.3.x"
+  },
+  "keywords": []
+}

@@ -1,0 +1,15 @@
+*.swp
+*.swo
+*DS_Store
+.project
+.settings
+*.komodoproject
+*DS_Store
+node_modules
+
+.env
+
+build/*/.git
+build/*/.git*
+
+.idea/*
