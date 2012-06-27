@@ -19,9 +19,11 @@ module.exports = function(grunt) {
       { repo: 'https://github.com/jquery/jquery.git',
         path: 'vendor/jquery/jquery'
       },
-      {
-        repo: 'https://github.com/cloudhead/less.js.git',
+      { repo: 'https://github.com/cloudhead/less.js.git',
         path: 'vendor/cloudhead/less.js'
+      },
+      { repo: 'https://github.com/douglascrockford/JSON-js.git',
+        path: 'vendor/douglascrockford/JSON-js'
       }
     ];
 
