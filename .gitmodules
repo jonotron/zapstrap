@@ -1,0 +1,18 @@
+[submodule "vendor/douglascrockford/JSON-js"]
+	path = vendor/douglascrockford/JSON-js
+	url = https://github.com/douglascrockford/JSON-js.git
+[submodule "vendor/documentcloud/underscore"]
+	path = vendor/documentcloud/underscore
+	url = https://github.com/documentcloud/underscore.git
+[submodule "vendor/cloudhead/less.js"]
+	path = vendor/cloudhead/less.js
+	url = https://github.com/cloudhead/less.js.git
+[submodule "vendor/documentcloud/backbone"]
+	path = vendor/documentcloud/backbone
+	url = https://github.com/documentcloud/backbone.git
+[submodule "vendor/jrburke/requirejs"]
+	path = vendor/jrburke/requirejs
+	url = https://github.com/jrburke/requirejs.git
+[submodule "vendor/jquery/jquery"]
+	path = vendor/jquery/jquery
+	url = https://github.com/jquery/jquery.git
