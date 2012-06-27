@@ -16,7 +16,12 @@ exports.template = function(grunt, init, done) {
 
   grunt.helper('prompt', {type: 'zapstrap'}, [
     grunt.helper('prompt_for', 'name'),
-    grunt.helper('prompt_for', 'description')
+    grunt.helper('prompt_for', 'description'),
+
+    grunt.helper('prompt_for', 'author_name'),
+    grunt.helper('prompt_for', 'author_email'),
+
+    grunt.helper('prompt_for', 'licenses', 'MIT')
   ], function (err, props) {
     var files = init.filesToCopy(props);
 
