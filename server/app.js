@@ -21,6 +21,7 @@ server.start = function() {
     });
 
     var rootDir = path.normalize(__dirname + webPath + '/..');
+    app.use('/test', express.static(rootDir + '/test'));
     app.use('/js', express.static(rootDir + '/client'));
     app.use(express.static(rootDir + '/assets'));
   });
