@@ -1,6 +1,6 @@
 /** basic main.js require */
 require.config({
-  baseUrl: 'modules',
+  baseUrl: 'js/modules',
 
   paths: {
     //3rd party dependencies

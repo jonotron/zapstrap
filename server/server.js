@@ -1,13 +1,12 @@
 /** Basic server */
 var express = require('express'),
-
     nconf = require('./config'),
-
     app = exports.module = express.createServer();
 
 var webPath = nconf.get('NODE_ENV') === 'production' ? '/build' : '';
 
 app.configure(function() {
+  var path = require('path');
   app.use(express.bodyParser());
   
   app.set('views', __dirname + '/views');
@@ -16,9 +15,13 @@ app.configure(function() {
     layout: false
   });
 
-  app.use('/js', express.static(__dirname + webPath + '/client'));
-  app.use('/assets', express.static(__dirname + webPath + '/assets'));
+  var rootDir = path.normalize(__dirname + webPath + '/..');
+  app.use('/js', express.static(rootDir + '/client'));
+  app.use(express.static(rootDir + '/assets'));
 });
+
+console.log('static', __dirname + webPath + '/client');
+console.log('static', __dirname + webPath + '/assets');
 
 app.get('/', function(req,res) {
   res.render('app');
