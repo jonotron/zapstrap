@@ -10,8 +10,11 @@ require.config({
     'underscore':   '../libs/underscore',
     'json2':        '../libs/json2',
 
+    'hbs':          '../libs/hbs',
+    'Handlebars':   '../libs/Handlebars',
+
     // application paths
-    'app':          '../app', 
+    'app':          '../app' 
   },
 
   shim: {
@@ -21,6 +24,17 @@ require.config({
       deps: ['underscore', 'jquery'],
       exports: 'Backbone'
     }
+  },
+
+  map: {
+    'hbs': {
+      './hbs/json2': '../libs/json2',
+      './hbs/underscore': '../libs/underscore'
+    }
+  },
+
+  hbs: {
+    disableI18n: true
   }
 });
 

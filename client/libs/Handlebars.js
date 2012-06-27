@@ -1,0 +1,1 @@
+../../vendor/SlexAxton/require-handlebars-plugin/Handlebars.js

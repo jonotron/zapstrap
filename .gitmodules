@@ -16,3 +16,6 @@
 [submodule "vendor/jquery/jquery"]
 	path = vendor/jquery/jquery
 	url = https://github.com/jquery/jquery.git
+[submodule "vendor/SlexAxton/require-handlebars-plugin"]
+	path = vendor/SlexAxton/require-handlebars-plugin
+	url = https://github.com/SlexAxton/require-handlebars-plugin.git
