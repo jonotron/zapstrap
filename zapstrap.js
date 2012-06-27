@@ -23,6 +23,7 @@ exports.template = function(grunt, init, done) {
 
     grunt.helper('prompt_for', 'licenses', 'MIT')
   ], function (err, props) {
+
     var files = init.filesToCopy(props);
 
     init.copyAndProcess(files, props);
