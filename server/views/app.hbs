@@ -9,7 +9,16 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
 
-    <script data-main="js/main.js" src="js/libs/require.js"></script>
+    <script src="js/libs/require.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      require(['jquery', 'app/app'],
+        function($, App) {
+          var app = new App({el: $('#app')});
+        }
+      );
+    </script>
+
 
   </head>
 

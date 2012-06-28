@@ -1,6 +1,6 @@
 /** basic main.js require */
 require.config({
-  baseUrl: 'js/modules',
+  baseUrl: '/js/modules',
 
   paths: {
     //3rd party dependencies
@@ -14,7 +14,9 @@ require.config({
     'Handlebars':   '../libs/Handlebars',
 
     // application paths
-    'app':          '../app' 
+    'app':          '../app',
+
+    'test':         '../../test',
   },
 
   shim: {
@@ -37,9 +39,3 @@ require.config({
     disableI18n: true
   }
 });
-
-require([   'jquery',   'app/app'],
-  function ( $,         App) {
-    var app = new App({el: $('#app')});
-  }
-);
