@@ -12,7 +12,7 @@ require.config({
 
     'hbs'                 : '../libs/hbs',
     'Handlebars'          : '../libs/Handlebars',
-    'backbone-marionette' : '../libs/backbone-marionette',
+    'backbone.marionette' : '../libs/backbone.marionette',
 
     // application paths
     'app':          '../app',
