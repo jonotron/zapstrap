@@ -4,14 +4,15 @@ require.config({
 
   paths: {
     //3rd party dependencies
-    'libs':         '../libs', // generic libs
-    'jquery':       '../libs/jquery',
-    'backbone':     '../libs/backbone',
-    'underscore':   '../libs/underscore',
-    'json2':        '../libs/json2',
+    'libs'                : '../libs', // generic libs
+    'jquery'              : '../libs/jquery',
+    'backbone'            : '../libs/backbone',
+    'underscore'          : '../libs/underscore',
+    'json2'               : '../libs/json2',
 
-    'hbs':          '../libs/hbs',
-    'Handlebars':   '../libs/Handlebars',
+    'hbs'                 : '../libs/hbs',
+    'Handlebars'          : '../libs/Handlebars',
+    'backbone-marionette' : '../libs/backbone-marionette',
 
     // application paths
     'app':          '../app',

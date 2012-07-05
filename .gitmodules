@@ -22,3 +22,6 @@
 [submodule "vendor/pivotal/jasmine"]
 	path = vendor/pivotal/jasmine
 	url = https://github.com/pivotal/jasmine.git
+[submodule "vendor/derickbailey/backbone.marionette"]
+	path = vendor/derickbailey/backbone.marionette
+	url = https://github.com/derickbailey/backbone.marionette
