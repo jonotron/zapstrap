@@ -25,3 +25,6 @@
 [submodule "vendor/derickbailey/backbone.marionette"]
 	path = vendor/derickbailey/backbone.marionette
 	url = https://github.com/derickbailey/backbone.marionette
+[submodule "vendor/twitter/bootstrap"]
+	path = vendor/twitter/bootstrap
+	url = https://github.com/twitter/bootstrap.git
