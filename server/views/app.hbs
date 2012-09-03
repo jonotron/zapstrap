@@ -14,7 +14,7 @@
     <script>
       require(['jquery', 'app/app'],
         function($, App) {
-          var app = new App({el: $('#app')});
+          App.start();
         }
       );
     </script>
@@ -23,6 +23,6 @@
   </head>
 
   <body>
-    <div id="app"></div>
+    <div class="loading">Loading...</div>
   </body>
 </html>

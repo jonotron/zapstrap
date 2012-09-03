@@ -1,22 +1,14 @@
 /** basic app **/
 define(function(require) {
-  var Backbone = require('backbone');
+  var Marionette = require('backbone.marionette')
+    , MainLayout = require('app/layout')
+    ;
 
-  var Template = require('hbs!app/templates/app');
+  var App = new Marionette.Application();
 
-  var App = Backbone.View.extend({
-
-    template: Template,
-
-    initialize: function(options) {
-      this.render();
-    },
-
-    render: function() {
-      this.$el.html(this.template());
-      
-      return this;
-    }
+  App.addInitializer(function(options) {
+    App.main = new MainLayout();
+    $('body').html(App.main.render().el);
   });
 
   return App;
