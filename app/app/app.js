@@ -1,8 +1,7 @@
 /** basic app **/
 define(function(require) {
-  var Marionette = require('backbone.marionette')
-    , MainLayout = require('app/layout')
-    ;
+  var Marionette = require('backbone.marionette'), 
+      MainLayout = require('app/layout');
 
   var App = new Marionette.Application();
 
