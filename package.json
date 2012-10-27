@@ -1,7 +1,7 @@
 {
   "name": "zapstrap",
   "description": "empty zapstrap project",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Jonathan Bowers",
     "email": "jonotron@gmail.com"
@@ -10,18 +10,15 @@
     "node": "0.8.x"
   },
   "dependencies": {
-    "express": "2.5.x",
+    "express": "3.x",
     "hbs": "1.0.x",
-    "underscore": "1.3.x",
-    "mongoose": "2.5.x",
-    "nconf": "0.5.x"
+    "underscore": "1.4.x",
+    "mongoose": "3.2.x",
+    "nconf": "latest"
   },
   "devDependencies": {
-    "requirejs": "2.0.x",
-    "less": "1.3.x",
-    "mocha": "1.3.x",
-    "chai": "1.2.x"
-
+    "requirejs": "2.1.x",
+    "less": "1.3.x"
   },
   "keywords": []
 }
