@@ -16,9 +16,6 @@ server.start = function() {
     
     app.set('views', __dirname + '/views');
     app.set('view engine', 'hbs');
-    app.set('view options', {
-      layout: false
-    });
 
     var rootDir = path.normalize(__dirname + webPath + '/..');
     app.use('/test', express.static(rootDir + '/test'));
