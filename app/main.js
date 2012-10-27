@@ -11,7 +11,8 @@ require.config({
     'json2'               : '../libs/json2',
 
     'hbs'                 : '../libs/hbs',
-    'Handlebars'          : '../libs/Handlebars',
+    'handlebars'          : '../libs/Handlebars',
+    'i18nprecompile'      : '../libs/hbs/i18nprecompile',
     'backbone.marionette' : '../libs/backbone.marionette',
 
     // application paths
@@ -26,13 +27,6 @@ require.config({
     'backbone': {
       deps: ['underscore', 'jquery'],
       exports: 'Backbone'
-    }
-  },
-
-  map: {
-    'hbs': {
-      './hbs/json2': '../libs/json2',
-      './hbs/underscore': '../libs/underscore'
     }
   },
 
