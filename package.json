@@ -13,7 +13,7 @@
     "express": "3.x",
     "hbs": "1.0.x",
     "underscore": "1.4.x",
-    "mongoose": "3.2.x",
+    "mongoose": "3.4.x",
     "nconf": "latest"
   },
   "devDependencies": {
