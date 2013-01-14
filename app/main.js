@@ -14,6 +14,9 @@ require.config({
     'handlebars'          : '../libs/Handlebars',
     'i18nprecompile'      : '../libs/hbs/i18nprecompile',
     'backbone.marionette' : '../libs/backbone.marionette',
+    'backbone.wreqr'      : '../libs/backbone.wreqr',
+    'backbone.babysitter' : '../libs/backbone.babysitter',
+    'backbone.eventbinder' : '../libs/backbone.eventbinder',
 
     // application paths
     'app':          '../app',

@@ -34,3 +34,6 @@
 [submodule "vendor/marionettejs/backbone.babysitter"]
 	path = vendor/marionettejs/backbone.babysitter
 	url = https://github.com/marionettejs/backbone.babysitter.git
+[submodule "vendor/marionettejs/backbone.eventbinder"]
+	path = vendor/marionettejs/backbone.eventbinder
+	url = https://github.com/marionettejs/backbone.eventbinder.git

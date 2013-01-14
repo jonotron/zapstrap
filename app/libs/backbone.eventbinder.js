@@ -1,0 +1,1 @@
+../../vendor/marionettejs/backbone.eventbinder/lib/amd/backbone.eventbinder.js
