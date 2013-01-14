@@ -1,0 +1,1 @@
+../../vendor/marionettejs/backbone.wreqr/lib/amd/backbone.wreqr.js

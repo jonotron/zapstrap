@@ -1,1 +1,1 @@
-../../vendor/marionettejs/backbone.marionette/lib/amd/backbone.marionette.js
+../../vendor/marionettejs/backbone.marionette/lib/core/amd/backbone.marionette.js

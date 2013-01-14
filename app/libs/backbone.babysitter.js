@@ -1,0 +1,1 @@
+../../vendor/marionettejs/backbone.babysitter/lib/amd/backbone.babysitter.js
