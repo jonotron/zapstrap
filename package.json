@@ -18,7 +18,9 @@
   },
   "devDependencies": {
     "requirejs": "2.1.x",
-    "less": "1.3.x"
+    "less": "1.3.x",
+    "grunt": "0.4.x",
+    "grunt-requirejs": "0.3.x"
   },
   "keywords": []
 }
