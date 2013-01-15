@@ -1,7 +1,7 @@
 ({
   appDir: "app/",
   baseUrl: "modules/",
-  mainConfigFile: 'app/main.js',
+  mainConfigFile: 'app/require.config.js',
   dir: "build",
   
   optimize: "none", // comment this out to get an uglified file
