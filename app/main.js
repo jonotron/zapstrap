@@ -33,7 +33,9 @@ require.config({
     }
   },
 
+  locale: 'en_us',
+
   hbs: {
-    disableI18n: true
+    disableI18n: false
   }
 });

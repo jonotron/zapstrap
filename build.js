@@ -18,6 +18,8 @@
   modules: [
     { 
       name: "app/app",
+      exclude: ["jquery", "backbone.marionette", "backbone", "handlebars", "json2", "hbs"]
     }
   ]
+
 })
