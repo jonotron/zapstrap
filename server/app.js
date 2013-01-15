@@ -8,23 +8,20 @@ server.start = function() {
 
   var app = express();
 
-  var webPath = nconf.get('NODE_ENV') === 'production' ? '/build' : '';
+  var appPath = nconf.get('NODE_ENV') === 'production' ? '/build' : '/app';
+  var rootDir = require('path').normalize(__dirname + '/..');
+
 
   app.configure(function() {
-    var path = require('path');
     app.use(express.bodyParser());
     
     app.set('views', __dirname + '/views');
     app.set('view engine', 'hbs');
 
-    var rootDir = path.normalize(__dirname + webPath + '/..');
     app.use('/test', express.static(rootDir + '/test'));
-    app.use('/js', express.static(rootDir + '/app'));
+    app.use('/js', express.static(rootDir + appPath));
     app.use(express.static(rootDir + '/assets'));
   });
-
-  console.log('static', __dirname + webPath + '/app');
-  console.log('static', __dirname + webPath + '/assets');
 
   app.get('/', function(req,res) {
     res.render('app');
