@@ -19,9 +19,6 @@
 [submodule "vendor/SlexAxton/require-handlebars-plugin"]
 	path = vendor/SlexAxton/require-handlebars-plugin
 	url = https://github.com/SlexAxton/require-handlebars-plugin.git
-[submodule "vendor/pivotal/jasmine"]
-	path = vendor/pivotal/jasmine
-	url = https://github.com/pivotal/jasmine.git
 [submodule "vendor/twitter/bootstrap"]
 	path = vendor/twitter/bootstrap
 	url = https://github.com/twitter/bootstrap.git
